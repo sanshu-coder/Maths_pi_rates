@@ -1,0 +1,27 @@
+.blue-black{
+                               background-color:#353b48;
+                               color: aliceblue;
+}
+.pink-red{
+                               background-color: #fd5c63;
+                               color: #353b48;
+}
+.green{
+                               background-color: rgb(0, 190, 0);
+                               color:white;
+}
+.text-left{
+                               text-align: left;
+}
+.text-center{
+                               text-align: center;
+}
+.text-right{
+                               text-align: right;
+}
+.bold{
+                               font-weight: bold;
+}
+.white{
+                               color: white;
+}

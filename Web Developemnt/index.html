@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math π rates - A plateform to become Mathematician</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- adding fonts -->
+    <link rel="stylesheet" href="/Fonts/font.css" />
+    <!-- adding utility classes -->
+    <link rel="stylesheet" href="/Utils/utils.css" />
+    <!-- adding responsive css -->
+    <link rel="stylesheet" href="/res/responsive.css" />
+    <!-- adding icons cdn -->
+  </head>
+  <body>
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <h2 class="ubuntu logoh1 white">Math π rates</h2>
+        </div>
+        <li><a href="#" class="ubuntu bold">Home</a></li>
+        <li><a href="#about" class="ubuntu bold">About</a></li>
+        <li><a href="#contact" class="ubuntu bold">Contact Us</a></li>
+      </ul>
+      <div class="rightNav v-class-resp"></div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="background firstSection">
+      <div class="box-main">
+        <div class="firstHalf">
+          <p class="text-big">Math π rates - Free Maths Problem Solving</p>
+          <div class="buttons">
+                               <button id="homebtn" class="btn"><a target="_" href="https://www.youtube.com/channel/UCs735RENNmRarEK4fqR3tug" class="homeanchor">Subscribe</a></button>
+                               <button id="homebtn" class="btn"><a target="_" href="https://www.youtube.com/channel/UCs735RENNmRarEK4fqR3tug/videos" class="homeanchor">Watch Video</a>
+          </div>
+        </div>
+
+        <div class="secondHalf">
+          <img
+            src="https://image.freepik.com/free-vector/maths-education-isometric-concept-with-3d-shapes-illustration_1284-53773.jpg"
+            alt="Laptop Image"
+            style="width: 250px"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section section-left" id="about">
+      <div class="paras">
+        <p class="sectionTag text-big">Importance of Maths</p>
+        <p class="sectionSubTag text-small Balu">
+                               Mathematics is a methodical application of matter. It is so said because the subject makes a man methodical or systematic. Mathematics makes our life orderly and prevents chaos. Certain qualities that are nurtured by mathematics are power of reasoning, creativity, abstract or spatial thinking, critical thinking, problem-solving ability and even effective communication skills.
+                               So by this channel my moto is to destroy the fear of Maths from the students as maths is a very important subject in every field from daily days calculation to Computer Programming Mathematical Problem Maths is Every where in our life when we buy vegetables for a seller we calculate the money with the help of Matsh only when you have to find home many days to your birthday this is with the help of maths So if you go with our channel we will clear your maths fear and makes you eligible to solve your all Equations.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img
+          src="https://image.freepik.com/free-vector/cartoon-math-elements-background_23-2148157868.jpg"
+          alt="laptop image"
+          class="imgFluid"
+        />
+      </div>
+    </section>
+    <section class="section" id="services">
+      <div class="paras">
+        <p class="sectionTag text-big">Is this Channel Makes Us A Mathematician</p>
+        <p class="sectionSubTag text-small Balu">
+        Yes, if you seriously do Maths This Channel makes you a mathematician you get regular questions on the Google Classroom and Questions of the day which are Logical and Reasoning Maths Question in the end of every video I will give you practice question and the handwritten notes for every class. there are 2nd Sunday Exam If you give the Exam and send It to Google Classroom I will Check your Exam sheets and tell your report .
+The 2nd Sunday helds 2 times in a month and you can easily get's an accurate result of the exam so now don't waste your time and begin with us
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img
+          src="https://image.freepik.com/free-vector/math-science-concept-with-school-lesson-items-retro-cartoon-style_1284-8084.jpg"
+          alt="laptop image"
+          class="imgFluid"
+        />
+      </div>
+    </section>
+    <section class="contact background" id="contact">
+      <h1 class="text-center white">Contact Us</h1>
+      <div class="form">
+        <i class="far fa-user"></i
+        ><input
+          class="form-input"
+          type="text"
+          name="name"
+          id="Name"
+          placeholder="Enter Your name"
+        />
+        <input
+          class="form-input"
+          type="text"
+          name="Subject"
+          id="Subject"
+          placeholder="Tell Your Subject"
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="Sender"
+          placeholder="Enter Your email"
+        />
+        <textarea
+          class="form-input"
+          name="text"
+          id="text"
+          cols="30"
+          rows="1"
+          id="Message"
+          placeholder="Ellaborate your concern"
+        ></textarea>
+        <button class="btn btn-sm btn-dark" type="submit">submit</button>
+      </div>
+    </section>
+
+    <footer class="background">
+      <p class="text-footer">
+        Copyright &copy; 2027 - www.math π rates.com - All rights reserved
+      </p>
+    </footer>
+  </body>
+  <!-- adding responsive js -->
+  <script src="/res/responsive.js"></script>
+  <!-- form script starting from here -->
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
+<script>  
+
+     function sendmail(){
+    
+			var name = $('#Name').val();
+			var email = $('#Sender').val();
+			var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+			// var body = $('#body').val();
+
+			var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+			//console.log(name, phone, email, message);
+
+			Email.send({
+        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'shuchirawal2008@gmail.com',
+				From: "mathpiratesgmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					alert('Your mail has been send. Thank you for connecting.');
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+    </script>
+ </script>
+</html>

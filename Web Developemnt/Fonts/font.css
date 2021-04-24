@@ -1,0 +1,18 @@
+/* Adding Urls */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* Creting Font Classes */
+.Raleway{
+                               font-family: 'Raleway', sans-serif;
+}
+.Balu{
+                               font-family: 'Baloo Bhaina 2', cursive;
+}
+.ubuntu{
+                               font-family: 'Ubuntu', sans-serif;
+}
+.josefin{
+                               font-family: 'Josefin Sans', sans-serif;
+}
